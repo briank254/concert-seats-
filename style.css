@@ -1,0 +1,73 @@
+input {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 6px;
+  font-size: 20px;
+  box-shadow: 5px 10px 40px grey;
+  background-color: silver;
+  margin: 2px;
+}
+
+#main {
+  float: center;
+  width: 40%;
+  overflow: hidden;
+  margin: auto;
+}
+#container {
+  float: right;
+  width: 80%;
+  padding: 10px;
+}
+
+#result,
+#message {
+  width: 100px;
+  height: auto;
+  font-family: cursive;
+  border-radius: 6px;
+  border: solid 1px black;
+  padding: 5px;
+  background-color: Silver;
+  
+}
+
+button {
+    width: 200px;
+  height: 40px;
+  margin: 10px 0px;
+  border: solid 1px blue;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-emphasis: none;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: blue;
+  cursor: pointer; 
+}
+#emptyButton {
+  background-color: royalblue;
+}
+h2 {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-transform: Uppercase;
+}
+p {
+  color: blue;
+
+  font-size: 20px;
+}
+
+button[disabled] + .text {
+  display: none;
+}
+
+button[disabled]:hover + .text {
+  display: block;
+  color: red;
+}
